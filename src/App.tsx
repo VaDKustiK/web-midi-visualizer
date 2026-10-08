@@ -31,7 +31,7 @@ import { createPreviews } from './visualizers/previews';
 import { previewAudioSeconds } from './audio/previewAnalysis';
 
 const placeholderPreview = createDemo();
-const repositoryUrl = ''; // place it here
+const repositoryUrl = 'https://github.com/VaDKustiK/web-midi-visualizer';
 type Progress = { value: number; label: string };
 type ModalKind = 'settings' | 'export' | 'about' | null;
 const errorMessage = (error: unknown) =>
